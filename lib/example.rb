@@ -1,2 +1,2 @@
-h = {wa: "a", "tags" => {"Shipping Method" => "Fedex"}}
-puts h.to_tau_xml
+o = Order.first
+puts o.to_manual_xml

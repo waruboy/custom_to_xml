@@ -17,12 +17,13 @@ class Hash
 
     root = ActiveSupport::XmlMini.rename_key(options[:root].to_s, options)
 
+    keys_with_currency = ["unitPrice"]
     builder.tag!(root) do
       each do |key, value|
         if key == options[:tags_label]
           builder.tags do |tag_nodes|
-            value.each do |key2, value2|
-              tag_nodes.tag(value2, "attribute" => key2)
+            value.each do |tagg|
+              tag_nodes.tag(tagg["value"], "attribute" => tagg["context"])
             end
           end 
         else 

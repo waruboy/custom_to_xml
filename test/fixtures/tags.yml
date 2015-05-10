@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  shipping_method: MyString
+  sales_order_type: MyString
+
+two:
+  shipping_method: MyString
+  sales_order_type: MyString

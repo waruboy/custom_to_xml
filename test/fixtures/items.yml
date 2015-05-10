@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start_date: 2015-05-10
+  cancel_date: 2015-05-10
+  product_no: 1
+  size1: MyString
+  upc: 1
+  unit_price: 9.99
+  actual_price: 9.99
+  discount_percent: 9.99
+  order_qty: 1
+  ship_qty: 1
+  cancel_qty: 1
+
+two:
+  start_date: 2015-05-10
+  cancel_date: 2015-05-10
+  product_no: 1
+  size1: MyString
+  upc: 1
+  unit_price: 9.99
+  actual_price: 9.99
+  discount_percent: 9.99
+  order_qty: 1
+  ship_qty: 1
+  cancel_qty: 1
